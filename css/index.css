@@ -126,6 +126,12 @@ a.navbar-brand {
    color: #03045E;
 }
 
+@media screen and (max-width: 992px) {
+   .page-header__left__text__title {
+      font-size: 3.5rem;
+   }
+}
+
 .page-header__left form {
    width: 100%;
 }

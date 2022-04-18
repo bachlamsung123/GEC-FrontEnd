@@ -58,7 +58,7 @@
                </li>
 
                <li class="nav-item">
-                  <a href="#contact" class="nav-link text-white mx-lg-2">Về chúng tôi</a>
+                  <a href="#about" class="nav-link text-white mx-lg-2">Về chúng tôi</a>
                </li> 
                   
             </ul>
@@ -103,7 +103,7 @@
       <div class="about__gcontest d-flex flex-md-row flex-column container align-items-center justify-content-center">
 
          <div class="about__gcontest__left col-md-6 col-12 me-md-5 order-1 order-md-0 p-3">
-            <h1 class="text-start text-md-end ms-md-0 ms-4 text-center">G’Contest 2022</h1>
+            <h1 class="text-start text-md-end ms-md-0 ms-4 text-center fs-1">G’Contest 2022</h1>
             <p>Khởi đầu từ năm 2016, trải qua 3 mùa thi, G'Contest đã tạo nên những thành công vô cùng vang dội. Với sứ mệnh tạo ra một sân chơi trí tuệ chuyên nghiệp và uy tín, cùng với đó giúp các bạn sinh viên có cơ hội ứng dụng những kiến thức về kinh tế vào thực tế doanh nghiệp. 
             </p>
 
@@ -200,11 +200,13 @@
    <!-- Rewards -->
    <section id="rewards" class="py-5">
       <h1 class="fw-bold text-center text-white">Cơ cấu giải thưởng</h1>
+      
    </section>
 
+   <div id="partners"></div>
 
    <!-- Partners -->
-   <section id="partners" class="partners py-5 text-center">
+   <section class="partners py-5 text-center">
       <!-- <div id="contact-mark"></div> -->
       <h1 class="fw-bold text-center mb-5">Đơn vị đồng hành</h1>
 
@@ -239,9 +241,10 @@
       <div class="parter__item">
          <h5 class="fw-bold">Bảo trợ truyền thông</h5>
       </div>
-      
+      <div id="about"></div>
    </section>
    
+   <!-- About -->
 
    <section class="about py-5 d-flex align-items-center">
       
@@ -316,9 +319,7 @@
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
    <script>
-      AOS.init({
-         debounceDelay: 5000
-      });
+      AOS.init();
     </script>
    <script src="./js/index.js"></script>
 </body>
